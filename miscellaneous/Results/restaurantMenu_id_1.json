@@ -1,0 +1,151 @@
+{
+  "RestaurantName" : "Bella Italia",
+  "menu" : [ {
+    "name" : "Breakfast Menu",
+    "categories" : [ {
+      "name" : "Hot Beverages",
+      "items" : [ {
+        "name" : "Cappuccino",
+        "description" : "Rich and creamy Italian coffee.",
+        "price" : 4.5,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 120.0,
+        "tags" : "{\"Recommended\": true}"
+      }, {
+        "name" : "Espresso",
+        "description" : "A shot of strong Italian coffee.",
+        "price" : 3.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{}",
+        "spiceLevel" : "MILD",
+        "calories" : 10.0,
+        "tags" : null
+      }, {
+        "name" : "Latte",
+        "description" : "Smooth coffee with steamed milk.",
+        "price" : 4.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 150.0,
+        "tags" : null
+      } ]
+    }, {
+      "name" : "Pastries",
+      "items" : [ {
+        "name" : "Croissant",
+        "description" : "Flaky and buttery pastry.",
+        "price" : 3.5,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 150.0,
+        "tags" : null
+      } ]
+    } ]
+  }, {
+    "name" : "Lunch Menu",
+    "categories" : [ {
+      "name" : "Appetizers",
+      "items" : [ {
+        "name" : "Cannoli",
+        "description" : "Sweet pastry with creamy filling.",
+        "price" : 4.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Milk\": true, \"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 200.0,
+        "tags" : null
+      } ]
+    }, {
+      "name" : "Main Course",
+      "items" : [ {
+        "name" : "Bruschetta",
+        "description" : "Toasted bread with fresh tomato topping.",
+        "price" : 6.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 180.0,
+        "tags" : null
+      }, {
+        "name" : "Horchata",
+        "description" : "Sweet rice drink with cinnamon.",
+        "price" : 3.5,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Nuts\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 200.0,
+        "tags" : null
+      }, {
+        "name" : "Margherita Pizza",
+        "description" : "Wood-fired pizza with tomato and basil.",
+        "price" : 10.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Milk\": true, \"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 500.0,
+        "tags" : null
+      }, {
+        "name" : "Panettone",
+        "description" : "Italian sweet bread with dried fruits.",
+        "price" : 5.5,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Eggs\": true, \"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 250.0,
+        "tags" : null
+      }, {
+        "name" : "Lasagna",
+        "description" : "Layered pasta with meat and cheese.",
+        "price" : 14.0,
+        "isVegetarian" : false,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Milk\": true, \"Gluten\": true}",
+        "spiceLevel" : "MEDIUM",
+        "calories" : 600.0,
+        "tags" : null
+      } ]
+    } ]
+  }, {
+    "name" : "Dinner Menu",
+    "categories" : [ {
+      "name" : "Starters",
+      "items" : [ {
+        "name" : "Caprese Salad",
+        "description" : "Fresh tomatoes, mozzarella, and basil.",
+        "price" : 7.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 150.0,
+        "tags" : "{\"Recommended\": true}"
+      } ]
+    }, {
+      "name" : "Pastas",
+      "items" : [ {
+        "name" : "Spaghetti Carbonara",
+        "description" : "Classic pasta with creamy sauce.",
+        "price" : 12.0,
+        "isVegetarian" : false,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Eggs\": true, \"Milk\": true, \"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 400.0,
+        "tags" : null
+      } ]
+    } ]
+  } ]
+}

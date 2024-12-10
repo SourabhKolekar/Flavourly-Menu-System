@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+
+Resources:
+  RestaurantMenuHandler:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: org.example.RestaurantMenuHandler::handleRequest
+      Runtime: java17
+      CodeUri: target/FlavourlyMenuSystem-fatjar.jar # Path to JAR file
+      MemorySize: 512
+      Timeout: 15
+      Environment:
+        Variables:
+          # Add environment variables if required by Lambda
+          DB_URL: database-url
+          USER: database-username
+          PASS: database-password

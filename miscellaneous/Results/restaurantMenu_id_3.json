@@ -1,0 +1,111 @@
+{
+  "RestaurantName" : "Curry Delight",
+  "menu" : [ {
+    "name" : "Breakfast Menu",
+    "categories" : [ {
+      "name" : "Indian Drinks",
+      "items" : [ {
+        "name" : "Masala Chai",
+        "description" : "Indian spiced tea.",
+        "price" : 2.5,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 80.0,
+        "tags" : null
+      } ]
+    }, {
+      "name" : "Traditional Bites",
+      "items" : [ {
+        "name" : "Aloo Paratha",
+        "description" : "Stuffed flatbread with potatoes.",
+        "price" : 5.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Gluten\": true}",
+        "spiceLevel" : "MEDIUM",
+        "calories" : 300.0,
+        "tags" : "{\"Special\": true}"
+      } ]
+    } ]
+  }, {
+    "name" : "Lunch Menu",
+    "categories" : [ {
+      "name" : "Appetizers",
+      "items" : [ {
+        "name" : "Idli Sambar",
+        "description" : "Steamed rice cakes with lentil soup.",
+        "price" : 6.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{}",
+        "spiceLevel" : "MILD",
+        "calories" : 250.0,
+        "tags" : null
+      } ]
+    }, {
+      "name" : "Curries",
+      "items" : [ {
+        "name" : "Butter Chicken",
+        "description" : "Rich tomato-based chicken curry.",
+        "price" : 11.0,
+        "isVegetarian" : false,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Milk\": true, \"Chicken\": true}",
+        "spiceLevel" : "MEDIUM",
+        "calories" : 400.0,
+        "tags" : null
+      }, {
+        "name" : "Dal Makhani",
+        "description" : "Creamy lentils cooked with spices.",
+        "price" : 8.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MEDIUM",
+        "calories" : 350.0,
+        "tags" : null
+      }, {
+        "name" : "Paneer Butter Masala",
+        "description" : "Soft cottage cheese in creamy tomato sauce.",
+        "price" : 9.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 300.0,
+        "tags" : null
+      } ]
+    } ]
+  }, {
+    "name" : "Dinner Menu",
+    "categories" : [ {
+      "name" : "Tandoori",
+      "items" : [ {
+        "name" : "Tandoori Roti",
+        "description" : "Indian bread cooked in tandoor.",
+        "price" : 1.5,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 100.0,
+        "tags" : "{\"Special\": true}"
+      } ]
+    }, {
+      "name" : "Desserts",
+      "items" : [ {
+        "name" : "Gulab Jamun",
+        "description" : "Sweet dumplings soaked in syrup.",
+        "price" : 4.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 200.0,
+        "tags" : null
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,101 @@
+{
+  "RestaurantName" : "Taco Fiesta",
+  "menu" : [ {
+    "name" : "Breakfast Menu",
+    "categories" : [ {
+      "name" : "Mexican Drinks",
+      "items" : [ {
+        "name" : "Mexican Hot Chocolate",
+        "description" : "Rich chocolate with spices.",
+        "price" : 4.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Milk\": true}",
+        "spiceLevel" : "MEDIUM",
+        "calories" : 250.0,
+        "tags" : "{\"New\": true}"
+      } ]
+    }, {
+      "name" : "Morning Bites",
+      "items" : [ {
+        "name" : "Breakfast Burrito",
+        "description" : "Eggs, cheese, and beans in a tortilla.",
+        "price" : 7.5,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Eggs\": true, \"Gluten\": true}",
+        "spiceLevel" : "MEDIUM",
+        "calories" : 300.0,
+        "tags" : null
+      } ]
+    } ]
+  }, {
+    "name" : "Lunch Menu",
+    "categories" : [ {
+      "name" : "Starters",
+      "items" : [ {
+        "name" : "Huevos Rancheros",
+        "description" : "Eggs with salsa and tortillas.",
+        "price" : 8.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Eggs\": true}",
+        "spiceLevel" : "HOT",
+        "calories" : 350.0,
+        "tags" : null
+      } ]
+    }, {
+      "name" : "Tacos",
+      "items" : [ {
+        "name" : "Chilaquiles",
+        "description" : "Tortilla chips with green or red sauce.",
+        "price" : 9.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Gluten\": true}",
+        "spiceLevel" : "HOT",
+        "calories" : 400.0,
+        "tags" : null
+      } ]
+    } ]
+  }, {
+    "name" : "Dinner Menu",
+    "categories" : [ {
+      "name" : "Nachos & More",
+      "items" : [ {
+        "name" : "Enchiladas",
+        "description" : "Corn tortillas stuffed and covered in sauce.",
+        "price" : 12.0,
+        "isVegetarian" : false,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Gluten\": true}",
+        "spiceLevel" : "HOT",
+        "calories" : 400.0,
+        "tags" : null
+      } ]
+    }, {
+      "name" : "Sizzlers",
+      "items" : [ {
+        "name" : "Fajita Platter",
+        "description" : "Sizzling grilled meat with vegetables.",
+        "price" : 14.5,
+        "isVegetarian" : false,
+        "isGlutenFree" : true,
+        "allergens" : "{\"Beef\": true}",
+        "spiceLevel" : "HOT",
+        "calories" : 600.0,
+        "tags" : null
+      }, {
+        "name" : "Churros",
+        "description" : "Fried dough with cinnamon and sugar.",
+        "price" : 5.0,
+        "isVegetarian" : true,
+        "isGlutenFree" : false,
+        "allergens" : "{\"Milk\": true, \"Gluten\": true}",
+        "spiceLevel" : "MILD",
+        "calories" : 350.0,
+        "tags" : null
+      } ]
+    } ]
+  } ]
+}
